@@ -7,7 +7,8 @@ public class NoSupport extends Support{
 	}
 	
 	@Override
-	protected boolean resolve(Trouble trouble) {
+	protected boolean resolve(Trouble trouble) { //해결 메소드
+												 //자신은 아무것도 처리하지 않는다
 		return false;
 	}
 	
